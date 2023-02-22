@@ -1,0 +1,450 @@
+@media (min-width 1400px){
+    .container {
+        max-width: 1140px;
+    }
+}
+@media (max-width: 1199px) {
+    .Header {
+        padding-top: 0;
+    }
+
+    .menu {
+        font-size: 14px;
+    }
+
+    .place_for_search {
+        padding: 0;
+    }
+
+    .block_text p {
+        font-size: 14px;
+    }
+
+    .logo_title {
+        font-size: 20px;
+    }
+    .box_baner_firt {
+        display: flex;
+        background: #30363D;
+        border-radius: 10px;
+        color: white;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-right: 0;
+    }
+    .block_text:nth-child(4) {
+        border-bottom: none;
+    }
+    .block_text {
+        border-bottom: 1px solid lightgray;
+    }
+    .block_text:after {
+        display: none;
+    }
+    .sidebar {
+        max-width: 843px;
+        min-height: 200px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-top: 20px;
+    }
+
+    .sidebar_block {
+        margin-top: 25px;
+    }
+
+    .sidebar_post {
+        padding-top: 0;
+    }
+
+    .sidebar_post:after {
+        border-bottom: 0;
+    }
+
+    .sidebar_btn_read_more {
+        display: none;
+    }
+
+    .content_banner h2 {
+        padding-top: 39px;
+        padding-bottom: 25px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 50px;
+        max-width: 947px;
+        margin: 0 auto;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .content_banner {
+        min-height: 240px;
+    }
+
+    .wrapper_post {
+        display: flex;
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block_post_two {
+        max-width: 840px;
+        border-radius: 15px;
+    }
+
+    .block_post_two_sidebar {
+        display: flex;
+        flex-direction: row;
+        min-height: 0px;
+        background: white;
+        justify-content: space-between;
+        border-radius: 10px;
+        margin-top: 25px;
+        padding: 25px 10px;
+    }
+    .main_post_sidebar {
+        display: block;
+
+    }
+    .main_post_sidebar p {
+        font-size: 16px;
+    }
+    .post_sidebar_text h3 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 12px;
+        line-height: 20px;
+        color: #4B5157;
+    }
+    .main_post_sidebar:nth-child(1) {
+
+        padding-top: 50px;
+    }
+    .post_sidebar_text {
+        margin-left: 0;
+    }
+    .post_sidebar_img:before {
+        content: "";
+        background: rgb(0, 0, 0, 0.2);
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
+        transition: 0.3s all ease-in-out;
+    }
+    .job_block {
+        display: flex;
+        color: white;
+        border-radius: 15px;
+        width: 500px;
+        margin: 0 auto;
+    }
+    .job_wrapper {
+        display: block;
+        padding-bottom: 300px;
+    }
+    .job_block_second {
+        display: block;
+        width: 555px;
+        border-radius: 10px;
+        max-height: 352px;
+        padding-top: 50px;
+        margin: 0 auto;
+    }
+    .job_block_title h2 {
+        font-size: 30px;
+        padding: 15px 0;
+    }
+    .job_block_img  {
+        padding-top: 15px;
+    }
+    .job_btn {
+        display: block;
+        background: #4592FF;
+        border-radius: 20px;
+        color: white;
+        margin: 0 150px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: 0.4s all ease-in-out;
+        font-size: 15px;
+        line-height: 15px;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+    }
+    .footer_menu {
+        padding: 30px 60px;
+
+    }
+    .footer_second_block {
+        padding: 0 60px;
+    }
+}
+
+@media (max-width: 991px){
+
+}
+@media (max-width: 767px){
+   .Header {
+       padding-top: 0;
+   }
+    .nav_menu {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .item_menu a {
+
+    }
+    .responsive_menu_bar {
+        display: block;
+        text-align: center;
+        opacity: 1;
+        visibility: visible;
+    }
+    .responsive_menu_bar button{
+        color: white;
+        font-size: 25px;
+        transition: 0.3s all ease;
+        cursor: pointer;
+
+
+    }
+    .responsive_menu_bar button:hover {
+        color: gold;
+        cursor: pointer;
+
+    }
+    .responsive_menu_bar button {
+        background: none;
+        outline: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+
+    }
+    .main_nav {
+        display: none;
+    }
+    .tabs_item {
+        line-height: 16px;
+    }
+    .block_title {
+        max-width: 400px;
+    }
+    .block_two {
+        margin-top: 100px;
+    }
+    .block_img  {
+        padding-left: 50px;
+    }
+    .block_three {
+        padding-top: 125px;
+    }
+}
+
+@media (max-width: 500px) {
+    .menu .title {
+        padding: 15px;
+    }
+    .menu .title::before {
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: 15px;
+        width: 20px;
+        height: 20px;
+    }
+    .subscription {
+        display: none;
+    }
+    .Title {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    .logo_title {
+        padding-right: 0;
+    }
+    .wrapper_logo {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .tabs_body {
+        display: none;
+    }
+    .block_title {
+        margin: 0 auto;
+        max-width: 200px;
+
+
+    }
+    .block_img {
+        padding-left: 75px;
+    }
+    .block_one {
+        display: block;
+        min-height: 370px;
+    }
+
+    .block_two {
+        max-width: 252px;
+        max-height: 370px;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 0;
+        margin: 0 auto;
+
+    }
+    .BLOCK_2222 {
+        display: block;
+        padding-top: 30px;
+        max-width: 847px;
+    }
+    .block_three {
+        padding-top: 25px;
+        margin-bottom: 25px;
+    }
+    .block_three_img {
+
+        margin: 0 auto;
+    }
+    .sidebar_post h2 {
+
+        font-size: 15px;
+    }
+    .sidebar_title h2 {
+        font-size: 16px;
+    }
+    .content_banner h2 {
+        padding-top: 39px;
+        padding-bottom: 25px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        max-width: 947px;
+        margin: 0 auto;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .post_img:before {
+        content: "";
+        background: rgb(0,0,0,0.4);
+        width: 100%;
+        height: 42%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+        transition: 0.3s all ease-in-out;
+    }
+    .post_sidebar_img:before {
+        content: "";
+        background: rgb(0, 0, 0, 0.2);
+        width: 13%;
+        height: 100%;
+        position: absolute;
+        left: 202px;
+
+        opacity: 0;
+        transition: 0.3s all ease-in-out;
+
+    }
+    .main_post_sidebar {
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    .post_sidebar_text {
+        margin: 0 auto;
+    }
+    .post_sidebar_img a {
+        margin: 0 auto;
+    }
+    .block_post_two_sidebar {
+        display: block;
+    }
+    .block_post_two {
+        width: 100%;
+    }
+    .main_post_sidebar:nth-child(1){
+        padding-top: 0;
+    }
+    .Job {
+        padding-top: 200px;
+    }
+    .job_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 466px;
+        min-height: 570px;
+        color: white;
+        justify-content: space-around;
+        border-radius: 15px;
+        width: 0;
+    }
+    .job_woman {
+        max-width: 475px;
+        max-height: 330px;
+    }
+    .little_wrapper {
+        max-width: 475px;
+        padding-right: 0;
+    }
+    .job_block_second {
+        display: block;
+        width: 475px;
+        margin: 0 auto;
+    }
+    .job_woman_img {
+        padding-top: 50px;
+    }
+    .job_woman_img:after {
+        content: '';
+        position: absolute;
+        top: 122px;
+        right: 1px;
+        padding: 89px;
+        border-radius: 50%;
+        background: #D1E2EB;
+    }
+    .job_wrapper {
+        padding-bottom: 240px;
+    }
+    .Subscribe {
+        padding-top: 30px;
+    }
+    .subs_title h2 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 50px;
+        color: #262D33;
+    }
+
+
+
+}
+@media (max-width: 450px){
+
+}
+@media (max-width: 400px){
+
+}
+@media (max-width: 350px) {
+
+}
