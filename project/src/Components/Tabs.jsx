@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-
+/*
 const Tabs = () => {
 
     const handleLinkClick = (event) => {
         event.preventDefault();
     }
-
+*/
     return (
         <section className="Tabs">
             <div className="container">
