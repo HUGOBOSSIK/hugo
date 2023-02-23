@@ -1,6 +1,6 @@
 import Logo from "../img/woman.svg";
 
-/*
+
 
 const weatherBlock = document.querySelector('#weather');
 async function loadWeather(e) {
@@ -42,7 +42,7 @@ if (weatherBlock) {
 let dateblock = new Date().toDateString();
 document.querySelector('.date_block').innerHTML = dateblock;
 
-*/
+
 
 
 

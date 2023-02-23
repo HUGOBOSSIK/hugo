@@ -1,10 +1,13 @@
-/*let item = document.querySelector('.tabs_item');
+import React from 'react';
 
-item.onClick = function (event){
-    event.preventDefault();
-}*/
+
 
 const Tabs = () => {
+
+    const handleLinkClick = (event) => {
+        event.preventDefault();
+    }
+
     return (
         <section className="Tabs">
             <div className="container">
@@ -12,19 +15,19 @@ const Tabs = () => {
                     <div className="tabs">
                         <nav className="tab_items">
                             <div className="tabs_title">RECOMENDED FOR YOU</div>
-                            <a href="#tab_01" className="tabs_item"><span>Food</span>
+                            <a href="#tab_01" className="tabs_item" onClick={handleLinkClick}><span>Food</span>
                                 <p>For Chicken-Fried Steak, Too Much Is Just Enough</p>
                             </a>
-                            <a href="#tab_02" className="tabs_item"><span>Cars</span>
+                            <a href="#tab_02" className="tabs_item" onClick={handleLinkClick}><span>Cars</span>
                                 <p>Storm Has Car Dealers Doing Swift Business</p>
                             </a>
-                            <a href="#tab_03" className="tabs_item"><span>Movies</span>
+                            <a href="#tab_03" className="tabs_item" onClick={handleLinkClick}><span>Movies</span>
                                 <p>War Is Hell? In New Military Dramas, It’s One-Dimensional</p>
                             </a>
-                            <a href="#tab_04" className="tabs_item"><span>NFL</span>
+                            <a href="#tab_04" className="tabs_item" onClick={handleLinkClick}><span>NFL</span>
                                 <p>11 surprising stat rankings for active NFL players</p>
                             </a>
-                            <a href="#tab_05" className="tabs_item"><span>Tech Reviews</span>
+                            <a href="#tab_05" className="tabs_item" onClick={handleLinkClick}><span>Tech Reviews</span>
                                 <p>The bookcases you can buy online and assemble yourself</p>
                             </a>
                         </nav>

@@ -29,12 +29,14 @@ img {
 }
 .menu {
     border-right: 1px solid #D9DADB;
+    padding-right: 25px;
+    height: 60px;
 }
 .menu ul {
     margin: 0;
     list-style: none;
     padding-left: 20px;
-    display: none;
+
 }
 
 .menu .title::before {
@@ -48,17 +50,16 @@ img {
 }
 .menu .title {
     position: relative;
-    padding: 25px;
 }
 .menu.open ul {
     display: block;
 
 }
-.Header span {
+.Header button {
     display: inline-block;
 
 }
-.Header span:hover {
+.Header button:hover {
     cursor: pointer;
 
 }
@@ -85,6 +86,30 @@ img {
     color: gold;
 }
 
+#menu-container {
+    display: none;
+}
+
+#menu-container.show {
+    display: block;
+    background-color: #3d89cc;
+}
+#menu-container.show a {
+    text-decoration: none;
+}
+#menu-container.show a:hover {
+    color: gold;
+}
+
+
+#menu-btn {
+    display: block;
+    margin-top: 15px;
+    z-index: 20;
+    border: none;
+    outline: none;
+    padding: 7px;
+}
 /*WINDOW PRICES*/
 /*Pricing*/
 .payment_plans {
@@ -1814,6 +1839,7 @@ overflow: h.idden;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 99;
 }
 .modal-content {
     width: 500px;
