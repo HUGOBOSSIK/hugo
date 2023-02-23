@@ -6,7 +6,6 @@ function openW() {
     win.document.write('');
 
 };
-
 /*
 var menuBtn = document.getElementById("menu-btn");
 var menuContainer = document.getElementById("menu-container");
@@ -20,8 +19,8 @@ menuBtn.addEventListener("click", function() {
         menuBtn.innerHTML = "Sections";
     }
 });
-  */
 
+*/
 const Header = () => {
     const [show, setShow] = useState(false)
     return (
